@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+body{
+    background:#f5f7fb;
+}
+
+
+
+/* Sidebar */
+
+.sidebar{
+
+    width:250px;
+    height:100vh;
+    background:#1e293b;
+    position:fixed;
+    left:0;
+    top:0;
+    padding:20px;
+
+}
+
+
+
+.sidebar h2{
+
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+
+}
+
+
+
+.sidebar h2 i{
+
+    color:#38bdf8;
+    margin-right:8px;
+
+}
+
+
+
+
+.sidebar a{
+
+    display:block;
+    color:#e2e8f0;
+    text-decoration:none;
+    padding:14px;
+    margin:8px 0;
+    border-radius:8px;
+    transition:0.3s;
+
+}
+
+
+
+.sidebar a i{
+
+    width:25px;
+
+}
+
+
+
+
+.sidebar a:hover{
+
+    background:#0ea5e9;
+    color:white;
+
+}
+
+
+
+
+
+
+
+/* Main */
+
+.main{
+
+    margin-left:270px;
+    padding:30px;
+
+}
+
+
+
+.main h1{
+
+    color:#1e293b;
+    margin-bottom:10px;
+
+}
+
+
+
+.main p{
+
+    color:#64748b;
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+
+/* Cards */
+
+.cards{
+
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+
+
+.card{
+
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+
+}
+
+
+
+.card i{
+
+    font-size:35px;
+    color:#0ea5e9;
+    margin-bottom:15px;
+
+}
+
+
+
+.card h3{
+
+    color:#334155;
+    margin-bottom:10px;
+
+}
+
+
+
+.card h2{
+
+    font-size:32px;
+    color:#0f172a;
+
+}
